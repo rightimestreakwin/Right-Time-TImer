@@ -48,9 +48,7 @@ if (x) {
     x = false;
   }, secondsUntilNextMinute * 1000);
 }
-///////////////
 aviator_Start_function(io);
-// allroutes.generatedTimeEveryAfterEveryOneMinbyCrown();
 
 setInterval(() => {
   allroutes.INRWITHDRAWALCALLBACK();
@@ -64,7 +62,7 @@ setInterval(() => {
 setInterval(() => {
   allroutes.sendWingoAmountToTheAdminFiveMin(io);
 }, 1000);
-
+///////////
 app.get("/", (req, res) => {
   res.status(200).json({
     msg: "Server is running on port 2343",
