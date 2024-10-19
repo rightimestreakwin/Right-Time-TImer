@@ -62,7 +62,7 @@ setInterval(() => {
 setInterval(() => {
   allroutes.sendWingoAmountToTheAdminFiveMin(io);
 }, 1000);
-///////////
+
 app.get("/", (req, res) => {
   res.status(200).json({
     msg: "Server is running on port 2343",
